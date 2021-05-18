@@ -1,0 +1,118 @@
+
+.Container{
+    padding: 40px;
+    
+}
+.main-div{
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inner-div{
+    min-width: 300px;
+    max-width: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.table{
+    border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+}
+.table th,td{
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  thead{
+    background-color: #dddddd;
+  }
+.form{
+    padding: 20px;
+    background-color: #ededed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-field{
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+ .button{
+    padding: 8px !important; 
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.button:hover{
+    color: white;
+    background-color: #cccccc;
+    border: 1.5px solid black;
+}
+.button:focus{
+    border: 2px solid black;
+}
+.form-field label {
+    margin-right: 45px;
+}
+.input-field{
+    border: 2px solid black;
+    padding: 4px;
+}
+.name,.age,.select{
+width: 200px;
+padding: 6px;
+}
+.select{
+    cursor: pointer;
+}
+.radio{
+    cursor: pointer;
+}
+.remove,.edit {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.remove {
+    background-color: #e04d4d;
+    border-color: #e04d4d;
+    color: white;
+}
+.edit {
+    background-color: #3f51b5;
+    border-color: #3f51b5;;
+    color: white;
+}
+.edit:focus,.Remove:focus{
+    opacity: .8;
+}
+.buttons {
+    border:2px solid black;
+
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(315deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 49%, black 50%, black 100%);
+    background-size: 210% 200%;
+    background-position: 100% 100%;
+    transition: all 0.4s ease-out;
+}
+
+.buttons:hover {
+    background-position: 0 0;
+    color: white;
+}
